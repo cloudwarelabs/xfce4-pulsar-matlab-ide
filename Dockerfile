@@ -1,4 +1,4 @@
-FROM egistry.cn-hangzhou.aliyuncs.com/cloudwarelabs/matlab
+FROM registry.cn-hangzhou.aliyuncs.com/cloudwarelabs/matlab
 MAINTAINER guodong <gd@tongjo.com>
 RUN apt-get update
 RUN apt-get install -y git nodejs npm
