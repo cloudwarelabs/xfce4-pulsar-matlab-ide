@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=c9
+Comment=app
+Exec=nodejs /usr/local/src/c9sdk/server.js -w / --port 5680 --listen 0.0.0.0 -a :
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
